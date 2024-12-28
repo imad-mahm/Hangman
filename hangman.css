@@ -34,7 +34,7 @@ img {
 button {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   height: 23px;
-  border-radius: 100%;
+  border-radius: 5%;
 }
 
 input {
