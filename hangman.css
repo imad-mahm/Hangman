@@ -1,0 +1,40 @@
+  body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Courier New", Courier, monospace;
+    color: gray;
+  }
+
+  h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(163, 0, 0);
+  }
+
+  p {
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  #notif {
+    color: red;
+  }
+
+  img {
+    height: 200px;
+  }
+
+  button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 23px;
+  }
+
+  input {
+    font-family: "Courier New", Courier, monospace;
+    width: 125px;
+    height: 20px;
+  }
+
