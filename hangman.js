@@ -99,6 +99,7 @@ function resetGame(){
     gameActive = true;
     inputBox.value = "";
     wrongGuesses = [];
+    wrong.innerHTML = String(wrongGuesses);
 }
 
 resetGame();
