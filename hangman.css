@@ -23,6 +23,10 @@
     color: red;
   }
 
+  #wrong-guesses {
+    color: grey;
+  }
+
   img {
     height: 200px;
   }
