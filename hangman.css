@@ -1,44 +1,44 @@
-  body {
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-  }
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
 
-  h1 {
-    font-family: "Courier New", Courier, monospace;
-    color: gray;
-  }
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: gray;
+}
 
-  h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: lighter;
-    color: rgb(163, 0, 0);
-  }
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: lighter;
+  color: rgb(163, 0, 0);
+}
 
-  p {
-    font-family: "Courier New", Courier, monospace;
-  }
+p {
+  font-family: "Courier New", Courier, monospace;
+}
 
-  #notif {
-    color: red;
-  }
+#notif {
+  color: red;
+}
 
-  #wrong-guesses {
-    color: grey;
-  }
+#wrong-guesses {
+  color: grey;
+}
 
-  img {
-    height: 200px;
-  }
+img {
+  height: 200px;
+}
 
-  button {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 23px;
-  }
+button {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 23px;
+  border-radius: 100%;
+}
 
-  input {
-    font-family: "Courier New", Courier, monospace;
-    width: 125px;
-    height: 20px;
-  }
-
+input {
+  font-family: "Courier New", Courier, monospace;
+  width: 125px;
+  height: 20px;
+}
