@@ -31,8 +31,8 @@ p {
 }
 
 img {
-  height: 300px;
-  border: 10px;
+  float: left;
+  height: 200px;
 }
 
 button {
