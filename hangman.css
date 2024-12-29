@@ -6,13 +6,13 @@ body {
 
 h1 {
   font-family: "Courier New", Courier, monospace;
-  color: gray;
+  color: rgba(138, 0, 0, 0.484);
 }
 
 h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: lighter;
-  color: rgb(163, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 p {
@@ -20,25 +20,53 @@ p {
 }
 
 #notif {
-  color: red;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(255, 0, 0);
 }
 
 #wrong-guesses {
-  color: grey;
+  color: rgb(255, 0, 0);
+  font-weight: lighter;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 img {
-  height: 200px;
+  height: 300px;
+  border: 10px;
 }
 
 button {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  height: 23px;
-  border-radius: 5%;
+  height: 30px;
+  width: 80px;
+  position: absolute;
+  margin-left: 143px;
+  border-radius: 100px;
+  border: none;
+  border-width: 1px;
+  color: rgb(73, 73, 73);
+  background: rgb(60, 206, 255);
+}
+
+div {
+  display: flex;
+  width: 222px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 98px;
+  margin: auto;
+  background: #edeef0;
 }
 
 input {
   font-family: "Courier New", Courier, monospace;
-  width: 125px;
   height: 20px;
+  width: 125px;
+  margin-right: 70px;
+  border-radius: 98px;
+  border: solid #edeef0;
+  border-width: 1px;
+  background-color: #edeef0;
 }

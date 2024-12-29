@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta content="width= device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
     <title>HangMan</title>
     <link rel="stylesheet" href="hangman.css" />
   </head>
@@ -11,8 +11,10 @@
   <img id="hangman" src="0.png" />
   <p>Guess the word:</p>
   <p id="notif"></p>
-  <input id="guess" placeholder="guess: (eg: A)" type="text" />
-  <button id="submit" onclick="guess()">submit guess</button>
+  <div>
+    <input id="guess" placeholder="guess: (e.g.: A)" type="text" />
+    <button id="submit" onclick="guess()">submit</button>
+  </div>
   <h3 id="word"></h3>
   <h3 id="wrong-guesses"></h3>
   <script src="hangman.js"></script>
